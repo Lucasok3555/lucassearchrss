@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+    <title>Meu Feed Personalizado</title>
+    <link>https://lucasok3555.github.io/Lucasweb/rss.html</link>
+    <description>Feed gerado através da aplicação web.</description>
+    <language>pt-br</language>
+    <lastBuildDate>Thu, 08 Jan 2026 18:35:27 GMT</lastBuildDate>
+
+    <item>
+        <title>bookmarkbay</title>
+        <link>https://www.bookmarkbay.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:03:40 GMT</pubDate>
+        <guid>https://www.bookmarkbay.com/</guid>
+    </item>
+    <item>
+        <title>dbanotes</title>
+        <link>https://dbanotes.net/</link>
+        <pubDate>Thu, 08 Jan 2026 18:04:00 GMT</pubDate>
+        <guid>https://dbanotes.net/</guid>
+    </item>
+    <item>
+        <title>lus-lucasvitalempresa.blogspot</title>
+        <link>https://lus-lucasvitalempresa.blogspot.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:04:20 GMT</pubDate>
+        <guid>https://lus-lucasvitalempresa.blogspot.com/</guid>
+    </item>
+    <item>
+        <title>felamikoa.blogspot</title>
+        <link>https://felamikoa.blogspot.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:04:38 GMT</pubDate>
+        <guid>https://felamikoa.blogspot.com/</guid>
+    </item>
+    <item>
+        <title>noticias</title>
+        <link>https://www.noticias.info/</link>
+        <pubDate>Thu, 08 Jan 2026 18:04:50 GMT</pubDate>
+        <guid>https://www.noticias.info/</guid>
+    </item>
+    <item>
+        <title>directorymix</title>
+        <link>http://www.directorymix.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:05:01 GMT</pubDate>
+        <guid>http://www.directorymix.com/</guid>
+    </item>
+    <item>
+        <title>itsonthemove</title>
+        <link>https://www.itsonthemove.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:05:14 GMT</pubDate>
+        <guid>https://www.itsonthemove.com/</guid>
+    </item>
+    <item>
+        <title>uklistings</title>
+        <link>https://www.uklistings.org/</link>
+        <pubDate>Thu, 08 Jan 2026 18:05:28 GMT</pubDate>
+        <guid>https://www.uklistings.org/</guid>
+    </item>
+    <item>
+        <title>leadinglinkdirectory</title>
+        <link>https://www.leadinglinkdirectory.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:05:39 GMT</pubDate>
+        <guid>https://www.leadinglinkdirectory.com/</guid>
+    </item>
+    <item>
+        <title>freewebindex</title>
+        <link>https://www.freewebindex.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:06:01 GMT</pubDate>
+        <guid>https://www.freewebindex.com/</guid>
+    </item>
+    <item>
+        <title>aquarius-dir</title>
+        <link>https://aquarius-dir.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:06:13 GMT</pubDate>
+        <guid>https://aquarius-dir.com/</guid>
+    </item>
+    <item>
+        <title>sublimedir</title>
+        <link>https://www.sublimedir.net/</link>
+        <pubDate>Thu, 08 Jan 2026 18:06:25 GMT</pubDate>
+        <guid>https://www.sublimedir.net/</guid>
+    </item>
+    <item>
+        <title>pinklinker</title>
+        <link>http://www.pinklinker.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:06:36 GMT</pubDate>
+        <guid>http://www.pinklinker.com/</guid>
+    </item>
+    <item>
+        <title>nicedir</title>
+        <link>https://www.nicedir.net/</link>
+        <pubDate>Thu, 08 Jan 2026 18:06:50 GMT</pubDate>
+        <guid>https://www.nicedir.net/</guid>
+    </item>
+    <item>
+        <title>rowma</title>
+        <link>https://www.rowma.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:07:03 GMT</pubDate>
+        <guid>https://www.rowma.com/</guid>
+    </item>
+    <item>
+        <title>businessconnect.directory</title>
+        <link>https://businessconnect.directory/</link>
+        <pubDate>Thu, 08 Jan 2026 18:07:17 GMT</pubDate>
+        <guid>https://businessconnect.directory/</guid>
+    </item>
+    <item>
+        <title>blogengage</title>
+        <link>https://www.blogengage.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:07:29 GMT</pubDate>
+        <guid>https://www.blogengage.com/</guid>
+    </item>
+    <item>
+        <title>daimer</title>
+        <link>https://www.daimer.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:07:53 GMT</pubDate>
+        <guid>https://www.daimer.com/</guid>
+    </item>
+    <item>
+        <title>ethoscarpetcare</title>
+        <link>https://www.ethoscarpetcare.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:08:04 GMT</pubDate>
+        <guid>https://www.ethoscarpetcare.com/</guid>
+    </item>
+    <item>
+        <title>distrowatch</title>
+        <link>https://distrowatch.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:08:15 GMT</pubDate>
+        <guid>https://distrowatch.com/</guid>
+    </item>
+    <item>
+        <title>kernel linux</title>
+        <link>https://kernel.org/</link>
+        <pubDate>Thu, 08 Jan 2026 18:08:31 GMT</pubDate>
+        <guid>https://kernel.org/</guid>
+    </item>
+    <item>
+        <title>centos</title>
+        <link>https://www.centos.org/</link>
+        <pubDate>Thu, 08 Jan 2026 18:08:44 GMT</pubDate>
+        <guid>https://www.centos.org/</guid>
+    </item>
+    <item>
+        <title>kubuntu</title>
+        <link>https://kubuntu.org/</link>
+        <pubDate>Thu, 08 Jan 2026 18:08:57 GMT</pubDate>
+        <guid>https://kubuntu.org/</guid>
+    </item>
+    <item>
+        <title>kde</title>
+        <link>https://kde.org/pt-br/linux/</link>
+        <pubDate>Thu, 08 Jan 2026 18:09:09 GMT</pubDate>
+        <guid>https://kde.org/pt-br/linux/</guid>
+    </item>
+    <item>
+        <title>fydeos</title>
+        <link>https://fydeos.io/</link>
+        <pubDate>Thu, 08 Jan 2026 18:09:20 GMT</pubDate>
+        <guid>https://fydeos.io/</guid>
+    </item>
+    <item>
+        <title>reactos</title>
+        <link>https://reactos.org/</link>
+        <pubDate>Thu, 08 Jan 2026 18:09:35 GMT</pubDate>
+        <guid>https://reactos.org/</guid>
+    </item>
+    <item>
+        <title>opera</title>
+        <link>https://www.opera.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:10:16 GMT</pubDate>
+        <guid>https://www.opera.com/</guid>
+    </item>
+    <item>
+        <title>firefox</title>
+        <link>https://www.firefox.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:10:32 GMT</pubDate>
+        <guid>https://www.firefox.com/</guid>
+    </item>
+    <item>
+        <title>brave</title>
+        <link>https://brave.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:10:48 GMT</pubDate>
+        <guid>https://brave.com/</guid>
+    </item>
+    <item>
+        <title>google chrome</title>
+        <link>https://www.google.com/intl/en_uk/chrome/</link>
+        <pubDate>Thu, 08 Jan 2026 18:11:10 GMT</pubDate>
+        <guid>https://www.google.com/intl/en_uk/chrome/</guid>
+    </item>
+    <item>
+        <title>safari</title>
+        <link>https://www.apple.com/safari/</link>
+        <pubDate>Thu, 08 Jan 2026 18:11:23 GMT</pubDate>
+        <guid>https://www.apple.com/safari/</guid>
+    </item>
+    <item>
+        <title>edge</title>
+        <link>https://www.microsoft.com/pt-br/edge/?form=MA13FJ</link>
+        <pubDate>Thu, 08 Jan 2026 18:11:37 GMT</pubDate>
+        <guid>https://www.microsoft.com/pt-br/edge/?form=MA13FJ</guid>
+    </item>
+    <item>
+        <title>torproject</title>
+        <link>https://www.torproject.org/</link>
+        <pubDate>Thu, 08 Jan 2026 18:11:49 GMT</pubDate>
+        <guid>https://www.torproject.org/</guid>
+    </item>
+    <item>
+        <title>vivaldi</title>
+        <link>https://vivaldi.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:12:01 GMT</pubDate>
+        <guid>https://vivaldi.com/</guid>
+    </item>
+    <item>
+        <title>arc</title>
+        <link>https://arc.net/</link>
+        <pubDate>Thu, 08 Jan 2026 18:12:11 GMT</pubDate>
+        <guid>https://arc.net/</guid>
+    </item>
+    <item>
+        <title>mullvad</title>
+        <link>https://mullvad.net/en/browser</link>
+        <pubDate>Thu, 08 Jan 2026 18:12:22 GMT</pubDate>
+        <guid>https://mullvad.net/en/browser</guid>
+    </item>
+    <item>
+        <title>yandex browser</title>
+        <link>https://browser.yandex.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:12:42 GMT</pubDate>
+        <guid>https://browser.yandex.com/</guid>
+    </item>
+    <item>
+        <title>epicbrowser</title>
+        <link>https://epicbrowser.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:12:55 GMT</pubDate>
+        <guid>https://epicbrowser.com/</guid>
+    </item>
+    <item>
+        <title>chromium</title>
+        <link>https://www.chromium.org/</link>
+        <pubDate>Thu, 08 Jan 2026 18:13:06 GMT</pubDate>
+        <guid>https://www.chromium.org/</guid>
+    </item>
+    <item>
+        <title>diabrowser</title>
+        <link>https://www.diabrowser.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:13:17 GMT</pubDate>
+        <guid>https://www.diabrowser.com/</guid>
+    </item>
+    <item>
+        <title>ecosia browser</title>
+        <link>https://www.ecosia.org/browser</link>
+        <pubDate>Thu, 08 Jan 2026 18:13:32 GMT</pubDate>
+        <guid>https://www.ecosia.org/browser</guid>
+    </item>
+    <item>
+        <title>maxthon</title>
+        <link>https://www.maxthon.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:13:44 GMT</pubDate>
+        <guid>https://www.maxthon.com/</guid>
+    </item>
+    <item>
+        <title>supermium</title>
+        <link>https://supermium.neocities.org/</link>
+        <pubDate>Thu, 08 Jan 2026 18:13:58 GMT</pubDate>
+        <guid>https://supermium.neocities.org/</guid>
+    </item>
+    <item>
+        <title>mypal-browser</title>
+        <link>https://www.mypal-browser.org/</link>
+        <pubDate>Thu, 08 Jan 2026 18:14:12 GMT</pubDate>
+        <guid>https://www.mypal-browser.org/</guid>
+    </item>
+    <item>
+        <title>basilisk-browser</title>
+        <link>https://www.basilisk-browser.org/</link>
+        <pubDate>Thu, 08 Jan 2026 18:14:26 GMT</pubDate>
+        <guid>https://www.basilisk-browser.org/</guid>
+    </item>
+    <item>
+        <title>mullvad browser</title>
+        <link>https://mullvad.net/en/download/browser/windows</link>
+        <pubDate>Thu, 08 Jan 2026 18:14:47 GMT</pubDate>
+        <guid>https://mullvad.net/en/download/browser/windows</guid>
+    </item>
+    <item>
+        <title>safeexambrowser</title>
+        <link>https://safeexambrowser.org/</link>
+        <pubDate>Thu, 08 Jan 2026 18:15:00 GMT</pubDate>
+        <guid>https://safeexambrowser.org/</guid>
+    </item>
+    <item>
+        <title>malwarebytes</title>
+        <link>https://www.malwarebytes.com/pt-br/browserguard</link>
+        <pubDate>Thu, 08 Jan 2026 18:15:13 GMT</pubDate>
+        <guid>https://www.malwarebytes.com/pt-br/browserguard</guid>
+    </item>
+    <item>
+        <title>ulaa</title>
+        <link>https://ulaa.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:15:24 GMT</pubDate>
+        <guid>https://ulaa.com/</guid>
+    </item>
+    <item>
+        <title>brasilparalelo</title>
+        <link>https://www.brasilparalelo.com.br/</link>
+        <pubDate>Thu, 08 Jan 2026 18:15:45 GMT</pubDate>
+        <guid>https://www.brasilparalelo.com.br/</guid>
+    </item>
+    <item>
+        <title>thenewscc</title>
+        <link>https://thenewscc.com.br/</link>
+        <pubDate>Thu, 08 Jan 2026 18:15:56 GMT</pubDate>
+        <guid>https://thenewscc.com.br/</guid>
+    </item>
+    <item>
+        <title>nbcnews</title>
+        <link>https://www.nbcnews.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:16:07 GMT</pubDate>
+        <guid>https://www.nbcnews.com/</guid>
+    </item>
+    <item>
+        <title>jovempan</title>
+        <link>https://jovempan.com.br/jpnews</link>
+        <pubDate>Thu, 08 Jan 2026 18:16:21 GMT</pubDate>
+        <guid>https://jovempan.com.br/jpnews</guid>
+    </item>
+    <item>
+        <title>lemmy</title>
+        <link>https://lemmy.ml/</link>
+        <pubDate>Thu, 08 Jan 2026 18:16:37 GMT</pubDate>
+        <guid>https://lemmy.ml/</guid>
+    </item>
+    <item>
+        <title>linkedin</title>
+        <link>https://br.linkedin.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:16:51 GMT</pubDate>
+        <guid>https://br.linkedin.com/</guid>
+    </item>
+    <item>
+        <title>pinterest</title>
+        <link>https://br.pinterest.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:17:02 GMT</pubDate>
+        <guid>https://br.pinterest.com/</guid>
+    </item>
+    <item>
+        <title>tiktok</title>
+        <link>https://www.tiktok.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:17:15 GMT</pubDate>
+        <guid>https://www.tiktok.com/</guid>
+    </item>
+    <item>
+        <title>facebook</title>
+        <link>https://www.facebook.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:17:27 GMT</pubDate>
+        <guid>https://www.facebook.com/</guid>
+    </item>
+    <item>
+        <title>instagram</title>
+        <link>https://www.instagram.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:17:43 GMT</pubDate>
+        <guid>https://www.instagram.com/</guid>
+    </item>
+    <item>
+        <title>reddit</title>
+        <link>https://www.reddit.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:17:56 GMT</pubDate>
+        <guid>https://www.reddit.com/</guid>
+    </item>
+    <item>
+        <title>soundcloud</title>
+        <link>https://soundcloud.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:32:00 GMT</pubDate>
+        <guid>https://soundcloud.com/</guid>
+    </item>
+    <item>
+        <title>kick</title>
+        <link>https://kick.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:32:14 GMT</pubDate>
+        <guid>https://kick.com/</guid>
+    </item>
+    <item>
+        <title>snapchat</title>
+        <link>https://www.snapchat.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:32:30 GMT</pubDate>
+        <guid>https://www.snapchat.com/</guid>
+    </item>
+    <item>
+        <title>nimo.tv</title>
+        <link>https://www.nimo.tv/</link>
+        <pubDate>Thu, 08 Jan 2026 18:33:10 GMT</pubDate>
+        <guid>https://www.nimo.tv/</guid>
+    </item>
+    <item>
+        <title>loco live</title>
+        <link>https://loco.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:33:45 GMT</pubDate>
+        <guid>https://loco.com/</guid>
+    </item>
+    <item>
+        <title>primevideo</title>
+        <link>https://www.primevideo.com/-/pt_BR/gp/video/offers</link>
+        <pubDate>Thu, 08 Jan 2026 18:34:05 GMT</pubDate>
+        <guid>https://www.primevideo.com/-/pt_BR/gp/video/offers</guid>
+    </item>
+    <item>
+        <title>vimeo</title>
+        <link>https://vimeo.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:34:19 GMT</pubDate>
+        <guid>https://vimeo.com/</guid>
+    </item>
+    <item>
+        <title>vidio</title>
+        <link>https://www.vidio.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:34:37 GMT</pubDate>
+        <guid>https://www.vidio.com/</guid>
+    </item>
+    <item>
+        <title>youtube</title>
+        <link>https://www.youtube.com/</link>
+        <pubDate>Thu, 08 Jan 2026 18:35:09 GMT</pubDate>
+        <guid>https://www.youtube.com/</guid>
+    </item>
+</channel>
+</rss>
