@@ -1,8 +1,14 @@
 # Lucas Search Rss
-depositórios de links da internet de código aberto para buscadores
+um diretório de links enorme para buscadores de busca e modelos AI e vamos cobrir a web inteira
+
+Vamos tentar criar um mapa da internet aberta
+
+muitos sites antigos da internet estão perdidos no mundo
+
+Vamos tentar criar um mapa de sites da internet manualmente
 # sobre
-esse diretório é de um repositório de links da internet
-# IA
-esse repositório de links é permitido treinamento de IA
-# Buscadores
-usa a nossa fonte de links da internet para o seu buscador
+um diretório de links da internet e também feito
+
+ele foi feito para treinamento de modelos IA
+
+ele serve como um fonte para buscadores de busca
