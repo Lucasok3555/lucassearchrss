@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+    <title>Meu Feed Personalizado</title>
+    <link>https://lucasok3555.github.io/Lucasweb/rss.html</link>
+    <description>Feed gerado através da aplicação web.</description>
+    <language>pt-br</language>
+    <lastBuildDate>Sat, 17 Jan 2026 17:20:54 GMT</lastBuildDate>
+
+    <item>
+        <title>wikidata</title>
+        <link>https://www.wikidata.org/</link>
+        <pubDate>Sat, 17 Jan 2026 17:02:49 GMT</pubDate>
+        <guid>https://www.wikidata.org/</guid>
+    </item>
+    <item>
+        <title>wikivoyag</title>
+        <link>https://www.wikivoyage.org/</link>
+        <pubDate>Sat, 17 Jan 2026 17:03:10 GMT</pubDate>
+        <guid>https://www.wikivoyage.org/</guid>
+    </item>
+    <item>
+        <title>dicionarioinforma</title>
+        <link>https://www.dicionarioinformal.com.br/</link>
+        <pubDate>Sat, 17 Jan 2026 17:03:46 GMT</pubDate>
+        <guid>https://www.dicionarioinformal.com.br/</guid>
+    </item>
+    <item>
+        <title>wikiaves</title>
+        <link>https://www.wikiaves.com.br/</link>
+        <pubDate>Sat, 17 Jan 2026 17:04:08 GMT</pubDate>
+        <guid>https://www.wikiaves.com.br/</guid>
+    </item>
+    <item>
+        <title>fandom</title>
+        <link>https://www.fandom.com/</link>
+        <pubDate>Sat, 17 Jan 2026 17:04:27 GMT</pubDate>
+        <guid>https://www.fandom.com/</guid>
+    </item>
+    <item>
+        <title>linuxliteos</title>
+        <link>https://www.linuxliteos.com/</link>
+        <pubDate>Sat, 17 Jan 2026 17:04:53 GMT</pubDate>
+        <guid>https://www.linuxliteos.com/</guid>
+    </item>
+    <item>
+        <title>onnx ai</title>
+        <link>https://onnx.ai/</link>
+        <pubDate>Sat, 17 Jan 2026 17:05:19 GMT</pubDate>
+        <guid>https://onnx.ai/</guid>
+    </item>
+    <item>
+        <title>llama Meta</title>
+        <link>https://www.llama.com/</link>
+        <pubDate>Sat, 17 Jan 2026 17:06:28 GMT</pubDate>
+        <guid>https://www.llama.com/</guid>
+    </item>
+    <item>
+        <title>llama</title>
+        <link>https://ollama.com/</link>
+        <pubDate>Sat, 17 Jan 2026 17:06:51 GMT</pubDate>
+        <guid>https://ollama.com/</guid>
+    </item>
+    <item>
+        <title>lmstudio</title>
+        <link>https://lmstudio.ai/</link>
+        <pubDate>Sat, 17 Jan 2026 17:07:10 GMT</pubDate>
+        <guid>https://lmstudio.ai/</guid>
+    </item>
+    <item>
+        <title>localla</title>
+        <link>https://www.localla.com/</link>
+        <pubDate>Sat, 17 Jan 2026 17:07:28 GMT</pubDate>
+        <guid>https://www.localla.com/</guid>
+    </item>
+    <item>
+        <title>Lucas App</title>
+        <link>https://github.com/Lucasok3555/Lucas-Apps</link>
+        <pubDate>Sat, 17 Jan 2026 17:08:04 GMT</pubDate>
+        <guid>https://github.com/Lucasok3555/Lucas-Apps</guid>
+    </item>
+    <item>
+        <title>dmrede 24h7</title>
+        <link>https://dmrede.liveblog365.com/</link>
+        <pubDate>Sat, 17 Jan 2026 17:09:03 GMT</pubDate>
+        <guid>https://dmrede.liveblog365.com/</guid>
+    </item>
+    <item>
+        <title>Lucas IA</title>
+        <link>https://lucasiabr.wordpress.com/</link>
+        <pubDate>Sat, 17 Jan 2026 17:10:04 GMT</pubDate>
+        <guid>https://lucasiabr.wordpress.com/</guid>
+    </item>
+    <item>
+        <title>Dmrede</title>
+        <link>https://dmrede.loophole.site/</link>
+        <pubDate>Sat, 17 Jan 2026 17:10:35 GMT</pubDate>
+        <guid>https://dmrede.loophole.site/</guid>
+    </item>
+    <item>
+        <title>BK|Dmrede</title>
+        <link>https://dmrede.loophole.site/servi%c3%a7os/BK/</link>
+        <pubDate>Sat, 17 Jan 2026 17:12:06 GMT</pubDate>
+        <guid>https://dmrede.loophole.site/servi%c3%a7os/BK/</guid>
+    </item>
+    <item>
+        <title>BK24h7|Dmrede 24h7</title>
+        <link>https://dmrede.liveblog365.com/servi%c3%a7os/BK/</link>
+        <pubDate>Sat, 17 Jan 2026 17:13:12 GMT</pubDate>
+        <guid>https://dmrede.liveblog365.com/servi%c3%a7os/BK/</guid>
+    </item>
+    <item>
+        <title>lemmy</title>
+        <link>https://lemmy.ml/</link>
+        <pubDate>Sat, 17 Jan 2026 17:13:36 GMT</pubDate>
+        <guid>https://lemmy.ml/</guid>
+    </item>
+    <item>
+        <title>linkedin BRASIL</title>
+        <link>https://br.linkedin.com/</link>
+        <pubDate>Sat, 17 Jan 2026 17:14:06 GMT</pubDate>
+        <guid>https://br.linkedin.com/</guid>
+    </item>
+    <item>
+        <title>linkedin US</title>
+        <link>https://linkedin.com/</link>
+        <pubDate>Sat, 17 Jan 2026 17:14:48 GMT</pubDate>
+        <guid>https://linkedin.com/</guid>
+    </item>
+    <item>
+        <title>Pinterest|BRASIL</title>
+        <link>https://br.pinterest.com/</link>
+        <pubDate>Sat, 17 Jan 2026 17:15:37 GMT</pubDate>
+        <guid>https://br.pinterest.com/</guid>
+    </item>
+    <item>
+        <title>Pinterest|US</title>
+        <link>https://pinterest.com/</link>
+        <pubDate>Sat, 17 Jan 2026 17:16:05 GMT</pubDate>
+        <guid>https://pinterest.com/</guid>
+    </item>
+    <item>
+        <title>tiktok</title>
+        <link>https://www.tiktok.com/</link>
+        <pubDate>Sat, 17 Jan 2026 17:16:26 GMT</pubDate>
+        <guid>https://www.tiktok.com/</guid>
+    </item>
+    <item>
+        <title>tiktok|US|CM|</title>
+        <link>https://www.tiktok.com/</link>
+        <pubDate>Sat, 17 Jan 2026 17:17:36 GMT</pubDate>
+        <guid>https://www.tiktok.com/</guid>
+    </item>
+    <item>
+        <title>tiktok|BR|CM</title>
+        <link>https://www.tiktok.com/</link>
+        <pubDate>Sat, 17 Jan 2026 17:18:04 GMT</pubDate>
+        <guid>https://www.tiktok.com/</guid>
+    </item>
+    <item>
+        <title>facebook|BRASIL</title>
+        <link>https://www.facebook.com/</link>
+        <pubDate>Sat, 17 Jan 2026 17:18:38 GMT</pubDate>
+        <guid>https://www.facebook.com/</guid>
+    </item>
+    <item>
+        <title>facebook|US</title>
+        <link>https://www.facebook.com/</link>
+        <pubDate>Sat, 17 Jan 2026 17:19:21 GMT</pubDate>
+        <guid>https://www.facebook.com/</guid>
+    </item>
+    <item>
+        <title>instagram|BRASIL</title>
+        <link>https://www.instagram.com/</link>
+        <pubDate>Sat, 17 Jan 2026 17:19:50 GMT</pubDate>
+        <guid>https://www.instagram.com/</guid>
+    </item>
+    <item>
+        <title>instagram|US</title>
+        <link>https://www.instagram.com/</link>
+        <pubDate>Sat, 17 Jan 2026 17:20:15 GMT</pubDate>
+        <guid>https://www.instagram.com/</guid>
+    </item>
+    <item>
+        <title>reddit</title>
+        <link>https://www.reddit.com/</link>
+        <pubDate>Sat, 17 Jan 2026 17:20:36 GMT</pubDate>
+        <guid>https://www.reddit.com/</guid>
+    </item>
+</channel>
+</rss>
