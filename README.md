@@ -1,14 +1,11 @@
 # Lucas Search Rss
-um diretório de links enorme para buscadores de busca e modelos AI e vamos cobrir a web inteira
+Um consultório de links no formato RSS para buscadores e modelos de IA, com o objetivo de mapear a web aberta.
 
-Vamos tentar criar um mapa da internet aberta
+Buscamos criar um mapa da internet aberta e preservar referências de sites antigos que estão se perdendo.
 
-muitos sites antigos da internet estão perdidos no mundo
+O diretório é construído manualmente para servir como fonte de pesquisa e treinamento de modelos de IA.
 
-Vamos tentar criar um mapa de sites da internet manualmente
-# sobre
-um diretório de links da internet e também feito
+## Sobre
+Este projeto reúne um diretório de links da internet em formato RSS.
 
-ele foi feito para treinamento de modelos IA
-
-ele serve como um fonte para buscadores de busca
+Ele foi feito para treinamento de modelos de IA e para servir como fonte de dados para buscadores.
