@@ -16,6 +16,21 @@
         <link>http://online.com</link>
     </site>
     <site>
+        <nome>tor</nome>
+        <descricao>Get Tor Browser for Android. Protect yourself against tracking, surveillance, and censorship.</descricao>
+        <link>https://www.torproject.org/</link>
+    </site>
+    <site>
+        <nome>i2p</nome>
+        <descricao>I2P (Invisible Internet Project) é uma rede descentralizada focada em privacidade que permite às pessoas.</descricao>
+        <link>https://i2p.net/pt/</link>
+    </site>
+    <site>
+        <nome>freenet</nome>
+        <descricao>Freenet is a peer-to-peer platform for apps that no company controls. Your computer becomes part of a globa.</descricao>
+        <link>https://freenet.org/?pubDate=20250824</link>
+    </site>
+    <site>
         <nome>DMREDE</nome>
         <descricao>o nosso site respeitamos a sua liberdade de expressão e oferecemos serviços gratuitos.</descricao>
         <link>https://dmrede.loophole.site/</link>
