@@ -123,8 +123,10 @@
   <site endereco="https://status.hosting.com/">
     <pagina>
       <titulo>Status - hosting.com</titulo>
-      <descricao>Following our diagnosis and troubleshooting, our Infrastructure Team has changed the IP address to restore functionality as quickly as possible.
-
+      <descricao>Following our diagnosis and troubleshooting, our Infrastructure Team has changed the IP address to restore functionality as quickly as possible.
+
+
+
 For clients using our name servers, no action is required. However, for clients using external name servers, please manually update the DNS records for </descricao>
       <link>https://status.hosting.com/</link>
     </pagina>
@@ -135,8 +137,10 @@ For clients using our name servers, no action is required. However, for clients 
     </pagina>
     <pagina>
       <titulo>Hosting Performance Degradation | s3467.syd1.stableserver.net - hosting.com</titulo>
-      <descricao>Following our diagnosis and troubleshooting, our Infrastructure Team has changed the IP address to restore functionality as quickly as possible.
-
+      <descricao>Following our diagnosis and troubleshooting, our Infrastructure Team has changed the IP address to restore functionality as quickly as possible.
+
+
+
 For clients using our name servers, no action is required. However, for clients using external name servers, please manually update the DNS records for </descricao>
       <link>https://status.hosting.com/incident/3092</link>
     </pagina>
@@ -147,42 +151,53 @@ For clients using our name servers, no action is required. However, for clients 
     </pagina>
     <pagina>
       <titulo>Hosting Performance Degradation - hosting.com</titulo>
-      <descricao>We would like to give the update that all network and server loads are at normal levels and services are stable.
-
+      <descricao>We would like to give the update that all network and server loads are at normal levels and services are stable.
+
+
+
  If you have any questions or need any urgent assistance with your services, please reach out to us.</descricao>
       <link>https://status.hosting.com/incident/3090</link>
     </pagina>
     <pagina>
       <titulo>Status - hosting.com</titulo>
-      <descricao>Following our diagnosis and troubleshooting, our Infrastructure Team has changed the IP address to restore functionality as quickly as possible.
-
+      <descricao>Following our diagnosis and troubleshooting, our Infrastructure Team has changed the IP address to restore functionality as quickly as possible.
+
+
+
 For clients using our name servers, no action is required. However, for clients using external name servers, please manually update the DNS records for </descricao>
       <link>https://status.hosting.com</link>
     </pagina>
     <pagina>
       <titulo>Hosting Performance Degradation | s3917.syd1.stableserver.net - hosting.com</titulo>
-      <descricao>We would like to give the update that all network and server loads are at normal levels and services are stable.
-
+      <descricao>We would like to give the update that all network and server loads are at normal levels and services are stable.
+
+
+
  If you have any questions or need any urgent assistance with your services, please reach out to us.</descricao>
       <link>https://status.hosting.com/incident/3088</link>
     </pagina>
     <pagina>
       <titulo>Hosting Issue - sg1-ts2.a2hosting.com - hosting.com</titulo>
-      <descricao>Our technicians have confirmed that the issue has now been resolved. 
-We want to thank our clients for the patience they've had whilst our team was working on this resolution and apologise again for any of the inconveniences caused. 
-
+      <descricao>Our technicians have confirmed that the issue has now been resolved. 
+
+We want to thank our clients for the patience they've had whilst our team was working on this resolution and apologise again for any of the inconveniences caused. 
+
+
+
 If you have further issues please don't hesitate to reach out </descricao>
       <link>https://status.hosting.com/incident/3085</link>
     </pagina>
     <pagina>
       <titulo>Hosting Performance Degradation - hosting.com</titulo>
-      <descricao>We would like to give the update that network and server loads are at normal levels and services are stable.
+      <descricao>We would like to give the update that network and server loads are at normal levels and services are stable.
+
  If you have any questions or need any urgent assistance with your services, please reach out to us.</descricao>
       <link>https://status.hosting.com/incident/3084</link>
     </pagina>
     <pagina>
       <titulo>Hosting Performance Degradation - hosting.com</titulo>
-      <descricao>We would like to give the update that network and server loads are at normal levels and services are stable.
+      <descricao>We would like to give the update that network and server loads are at normal levels and services are stable.
+
  If you have any questions or need any urgent assistance with your services, please reach out to us.</descricao>
       <link>https://status.hosting.com/incident/3083</link>
     </pagina>
@@ -5973,22 +5988,28 @@ Get our newsletter emailed to you for more tips and updates.</descricao>
   <site endereco="https://investors.atlassian.com">
     <pagina>
       <titulo>Atlassian - Investor Relations</titulo>
-      <descricao>We build tools that help teams collaborate, build, and create together. We are a recognized leader in the software development, 
-        work management, and service management markets, building AI-powered team collaboration tools to help all teams work 
+      <descricao>We build tools that help teams collaborate, build, and create together. We are a recognized leader in the software development, 
+
+        work management, and service management markets, building AI-powered team collaboration tools to help all teams work 
+
         better together. Our system of work</descricao>
       <link>https://investors.atlassian.com</link>
     </pagina>
     <pagina>
       <titulo>Atlassian - Investor Relations</titulo>
-      <descricao>We build tools that help teams collaborate, build, and create together. We are a recognized leader in the software development, 
-        work management, and service management markets, building AI-powered team collaboration tools to help all teams work 
+      <descricao>We build tools that help teams collaborate, build, and create together. We are a recognized leader in the software development, 
+
+        work management, and service management markets, building AI-powered team collaboration tools to help all teams work 
+
         better together. Our system of work</descricao>
       <link>https://investors.atlassian.com#main-content</link>
     </pagina>
     <pagina>
       <titulo>Atlassian - Investor Relations</titulo>
-      <descricao>We build tools that help teams collaborate, build, and create together. We are a recognized leader in the software development, 
-        work management, and service management markets, building AI-powered team collaboration tools to help all teams work 
+      <descricao>We build tools that help teams collaborate, build, and create together. We are a recognized leader in the software development, 
+
+        work management, and service management markets, building AI-powered team collaboration tools to help all teams work 
+
         better together. Our system of work</descricao>
       <link>https://investors.atlassian.com/ir-home/default.aspx</link>
     </pagina>
