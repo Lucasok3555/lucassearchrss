@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>lucassearch // buscador de links</title>
+<meta name="description" content="Buscador de links — pesquise no diretório indexado por lucassearch.">
+
+<!-- Reconhecimento como mecanismo de busca pelo navegador (OpenSearch) -->
+<link rel="search" type="application/opensearchdescription+xml" title="lucassearch" href="opensearch.xml">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --bg:       #060a07;
+    --bg-panel: #0b120c;
+    --line:     #16261a;
+    --green:    #39ff6a;
+    --green-dim:#1f7a3d;
+    --cyan:     #4be6d8;
+    --text:     #d6f5da;
+    --muted:    #5d7a63;
+    --danger:   #ff5f5f;
+  }
+
+  *{ box-sizing:border-box; }
+
+  html,body{
+    margin:0; padding:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:'JetBrains Mono', monospace;
+    min-height:100vh;
+  }
+
+  /* scanline / crt overlay */
+  body::before{
+    content:"";
+    position:fixed; inset:0;
+    pointer-events:none;
+    background:repeating-linear-gradient(
+      to bottom,
+      rgba(57,255,106,0.025) 0px,
+      rgba(57,255,106,0.025) 1px,
+      transparent 1px,
+      transparent 3px
+    );
+    z-index:9999;
+  }
+  body::after{
+    content:"";
+    position:fixed; inset:0;
+    pointer-events:none;
+    background:radial-gradient(ellipse at 50% 0%, rgba(57,255,106,0.06), transparent 60%);
+    z-index:9998;
+  }
+
+  ::selection{ background:var(--green); color:#04140a; }
+
+  a{ color:var(--cyan); text-decoration:none; }
+  a:hover{ text-decoration:underline; }
+
+  button{ font-family:inherit; cursor:pointer; }
+
+  /* ---------- layout ---------- */
+  .wrap{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:14vh 20px 60px;
+    transition:padding-top .35s ease;
+  }
+  .wrap.compact{ padding-top:6vh; }
+
+  .brand{
+    display:flex;
+    align-items:baseline;
+    gap:2px;
+    font-family:'Share Tech Mono', monospace;
+    font-size:2.6rem;
+    letter-spacing:1px;
+    margin-bottom:34px;
+    user-select:none;
+  }
+  .brand .lb{ color:var(--muted); }
+  .brand .name{ color:var(--green); text-shadow:0 0 18px rgba(57,255,106,.45); }
+  .brand .caret{
+    display:inline-block;
+    width:.5ch;
+    background:var(--green);
+    margin-left:4px;
+    animation:blink 1s steps(1) infinite;
+  }
+  @keyframes blink{ 50%{ opacity:0; } }
+
+  /* ---------- search bar ---------- */
+  .searchbox{
+    width:100%;
+    max-width:640px;
+    position:relative;
+  }
+  .field{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    background:var(--bg-panel);
+    border:1px solid var(--line);
+    border-radius:3px;
+    padding:0 14px;
+    box-shadow:0 0 0 rgba(57,255,106,0);
+    transition:border-color .15s ease, box-shadow .15s ease;
+  }
+  .field:focus-within{
+    border-color:var(--green-dim);
+    box-shadow:0 0 22px rgba(57,255,106,.12);
+  }
+  .prompt{
+    color:var(--green);
+    font-size:1.05rem;
+    line-height:1;
+  }
+  #q{
+    flex:1;
+    background:transparent;
+    border:none;
+    outline:none;
+    color:var(--text);
+    font-family:inherit;
+    font-size:1.02rem;
+    padding:15px 0;
+  }
+  #q::placeholder{ color:var(--muted); }
+
+  .iconbtn{
+    background:transparent;
+    border:none;
+    color:var(--muted);
+    padding:6px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:3px;
+    transition:color .15s ease, background .15s ease;
+  }
+  .iconbtn:hover{ color:var(--green); background:rgba(57,255,106,.08); }
+  .iconbtn svg{ width:19px; height:19px; }
+  .iconbtn.listening{ color:var(--danger); animation:pulse 1.1s ease-in-out infinite; }
+  @keyframes pulse{ 0%,100%{ opacity:1; } 50%{ opacity:.35; } }
+
+  .clearbtn{ display:none; }
+  .clearbtn.show{ display:flex; }
+
+  /* ---------- history dropdown ---------- */
+  .history{
+    position:absolute;
+    top:calc(100% + 6px);
+    left:0; right:0;
+    background:var(--bg-panel);
+    border:1px solid var(--line);
+    border-radius:3px;
+    overflow:hidden;
+    z-index:10;
+    display:none;
+  }
+  .history.show{ display:block; }
+  .history-head{
+    display:flex; justify-content:space-between; align-items:center;
+    padding:8px 14px;
+    font-size:.72rem;
+    color:var(--muted);
+    letter-spacing:.5px;
+    border-bottom:1px solid var(--line);
+  }
+  .history-head button{
+    background:none; border:none; color:var(--muted);
+    font-family:inherit; font-size:.72rem; text-decoration:underline;
+  }
+  .history-head button:hover{ color:var(--danger); }
+  .h-item{
+    display:flex; align-items:center; gap:10px;
+    padding:10px 14px;
+    font-size:.92rem;
+    color:var(--text);
+    cursor:pointer;
+  }
+  .h-item:hover{ background:rgba(57,255,106,.06); }
+  .h-item svg{ width:14px; height:14px; color:var(--muted); flex-shrink:0; }
+  .h-item span{ flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .h-item .rm{ color:var(--muted); opacity:0; padding:2px; }
+  .h-item:hover .rm{ opacity:1; }
+  .h-item .rm:hover{ color:var(--danger); }
+
+  /* ---------- status line ---------- */
+  .status{
+    max-width:640px;
+    width:100%;
+    margin-top:14px;
+    font-size:.8rem;
+    color:var(--muted);
+    min-height:1.2em;
+  }
+  .status .n{ color:var(--green); }
+
+  /* ---------- results ---------- */
+  .results{
+    width:100%;
+    max-width:680px;
+    margin-top:26px;
+    display:flex;
+    flex-direction:column;
+    gap:22px;
+  }
+  .result{
+    border-left:2px solid var(--line);
+    padding-left:14px;
+  }
+  .result:hover{ border-left-color:var(--green-dim); }
+  .result .url{
+    font-size:.76rem;
+    color:var(--muted);
+    margin-bottom:4px;
+    word-break:break-all;
+  }
+  .result .title{
+    font-size:1.08rem;
+    font-family:'Share Tech Mono', monospace;
+  }
+  .result .title mark{
+    background:none;
+    color:var(--green);
+    text-shadow:0 0 10px rgba(57,255,106,.3);
+  }
+  .result .meta{
+    font-size:.74rem;
+    color:var(--muted);
+    margin-top:5px;
+  }
+
+  .empty{
+    margin-top:40px;
+    color:var(--muted);
+    font-size:.9rem;
+    text-align:center;
+    max-width:480px;
+  }
+  .empty b{ color:var(--text); }
+
+  footer{
+    margin-top:auto;
+    padding-top:50px;
+    font-size:.72rem;
+    color:var(--muted);
+  }
+  footer .n{ color:var(--green-dim); }
+
+  @media (prefers-reduced-motion: reduce){
+    .brand .caret, .iconbtn.listening{ animation:none; }
+  }
+
+  @media (max-width:480px){
+    .brand{ font-size:2rem; }
+    .wrap{ padding-top:10vh; }
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap" id="wrap">
+
+  <div class="brand">
+    <span class="lb">&gt;</span><span class="name">lucassearch</span><span class="caret"></span>
+  </div>
+
+  <div class="searchbox">
+    <div class="field">
+      <span class="prompt">$</span>
+      <input id="q" type="text" autocomplete="off" spellcheck="false"
+             placeholder="pesquisar no diretório..." aria-label="Campo de busca">
+      <button class="iconbtn clearbtn" id="clearBtn" title="Limpar" aria-label="Limpar busca">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <button class="iconbtn" id="micBtn" title="Busca por voz" aria-label="Busca por voz">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+      </button>
+      <button class="iconbtn" id="searchBtn" title="Buscar" aria-label="Buscar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+    </div>
+
+    <div class="history" id="historyBox">
+      <div class="history-head">
+        <span>HISTÓRICO DE BUSCA</span>
+        <button id="clearHistory">limpar tudo</button>
+      </div>
+      <div id="historyList"></div>
+    </div>
+  </div>
+
+  <div class="status" id="status"></div>
+
+  <div class="results" id="results"></div>
+  <div class="empty" id="emptyMsg" style="display:none;"></div>
+
+  <footer>índice carregado: <span class="n" id="idxCount">0</span> links · lucassearch</footer>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  var FEEDS = [
+    "https://lucasok3555.github.io/lucassearchrss/links.xml",
+    "https://lucasok3555.github.io/lucassearchrss/links2.xml",
+    "https://lucasok3555.github.io/lucassearchrss/links3.xml",
+    "https://lucasok3555.github.io/lucassearchrss/links4.xml",
+    "https://lucasok3555.github.io/lucassearchrss/links5.xml",
+    "https://lucasok3555.github.io/lucassearchrss/links6.xml",
+    "https://lucasok3555.github.io/lucassearchrss/links7.xml",
+    "https://lucasok3555.github.io/lucassearchrss/links8.xml",
+    "https://lucasok3555.github.io/lucassearchrss/links9.xml",
+    "https://lucasok3555.github.io/lucassearchrss/links10.xml",
+    "https://lucasok3555.github.io/lucassearchrss/links11.xml",
+    "https://lucasok3555.github.io/lucassearchrss/links12.xml",
+    "https://lucasok3555.github.io/lucassearchrss/links13.xml",
+    "https://lucasok3555.github.io/lucassearchrss/links14.xml",
+    "https://lucasok3555.github.io/lucassearchrss/links15.xml",
+    "https://lucasok3555.github.io/lucassearchrss/links16.xml",
+    "https://lucasok3555.github.io/lucassearchrss/links17.xml",
+    "https://lucasok3555.github.io/lucassearchrss/links18.xml",
+    "https://lucasok3555.github.io/lucassearchrss/links19.xml"
+  ];
+
+  var CACHE_KEY   = "lucassearch_index_cache_v1";
+  var CACHE_TTL   = 1000 * 60 * 30; // 30 min
+  var HISTORY_KEY = "lucassearch_history_v1";
+  var MAX_HISTORY = 12;
+  var MAX_RESULTS = 60;
+
+  var els = {
+    wrap:      document.getElementById("wrap"),
+    q:         document.getElementById("q"),
+    status:    document.getElementById("status"),
+    results:   document.getElementById("results"),
+    empty:     document.getElementById("emptyMsg"),
+    idxCount:  document.getElementById("idxCount"),
+    micBtn:    document.getElementById("micBtn"),
+    searchBtn: document.getElementById("searchBtn"),
+    clearBtn:  document.getElementById("clearBtn"),
+    historyBox:  document.getElementById("historyBox"),
+    historyList: document.getElementById("historyList"),
+    clearHistory: document.getElementById("clearHistory")
+  };
+
+  var index = [];    // {title, link, host, date}
+  var indexReady = false;
+
+  /* ---------------- utils ---------------- */
+
+  function normalize(str){
+    return (str || "")
+      .toString()
+      .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .trim();
+  }
+
+  function escapeHtml(str){
+    return (str || "").replace(/[&<>"']/g, function(c){
+      return { "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;" }[c];
+    });
+  }
+
+  function hostOf(url){
+    try{ return new URL(url).hostname.replace(/^www\./, ""); }
+    catch(e){ return url; }
+  }
+
+  function fmtDate(d){
+    if (!d) return "";
+    try{
+      return d.toLocaleDateString("pt-BR", { day:"2-digit", month:"short", year:"numeric" });
+    }catch(e){ return ""; }
+  }
+
+  /* ---------------- carregar índice (feeds RSS/XML) ---------------- */
+
+  function parseFeed(xmlText, sourceUrl){
+    var out = [];
+    try{
+      var doc = new DOMParser().parseFromString(xmlText, "text/xml");
+      if (doc.querySelector("parsererror")) return out;
+      var items = doc.querySelectorAll("item");
+      items.forEach(function(item){
+        var title = (item.querySelector("title") || {}).textContent || "";
+        var link  = (item.querySelector("link")  || {}).textContent || "";
+        var desc  = (item.querySelector("description") || {}).textContent || "";
+        var pub   = (item.querySelector("pubDate") || {}).textContent || "";
+        link = link.trim();
+        title = title.trim();
+        if (!link) return;
+        var d = pub ? new Date(pub) : null;
+        if (d && isNaN(d.getTime())) d = null;
+        out.push({
+          title: title || hostOf(link),
+          link: link,
+          desc: desc.trim(),
+          host: hostOf(link),
+          date: d,
+          ts: d ? d.getTime() : 0,
+          _n: normalize(title) + " " + normalize(hostOf(link)) + " " + normalize(desc)
+        });
+      });
+    }catch(e){ /* feed ignorado em caso de erro */ }
+    return out;
+  }
+
+  function dedupe(list){
+    var seen = Object.create(null);
+    var out = [];
+    for (var i=0;i<list.length;i++){
+      var k = list[i].link;
+      if (!seen[k]){ seen[k] = true; out.push(list[i]); }
+    }
+    return out;
+  }
+
+  function loadIndex(){
+    var cached = null;
+    try{
+      var raw = localStorage.getItem(CACHE_KEY);
+      if (raw){
+        var parsed = JSON.parse(raw);
+        if (parsed && (Date.now() - parsed.ts) < CACHE_TTL && Array.isArray(parsed.data)){
+          cached = parsed.data.map(function(it){
+            return Object.assign({}, it, { date: it.date ? new Date(it.date) : null });
+          });
+        }
+      }
+    }catch(e){}
+
+    if (cached && cached.length){
+      index = cached;
+      indexReady = true;
+      updateFooterCount();
+      setStatus("índice carregado do cache local.");
+      // atualiza em segundo plano
+      fetchAllFeeds(true);
+      return;
+    }
+
+    setStatus("carregando índice de " + FEEDS.length + " fontes...");
+    fetchAllFeeds(false);
+  }
+
+  function fetchAllFeeds(background){
+    var promises = FEEDS.map(function(url){
+      return fetch(url, { cache: "no-store" })
+        .then(function(r){ return r.ok ? r.text() : ""; })
+        .then(function(txt){ return txt ? parseFeed(txt, url) : []; })
+        .catch(function(){ return []; });
+    });
+
+    Promise.all(promises).then(function(chunks){
+      var all = dedupe([].concat.apply([], chunks));
+      all.sort(function(a,b){ return b.ts - a.ts; });
+      index = all;
+      indexReady = true;
+      updateFooterCount();
+      try{
+        localStorage.setItem(CACHE_KEY, JSON.stringify({ ts: Date.now(), data: all }));
+      }catch(e){}
+
+      if (!background){
+        setStatus(all.length ? "" : "não foi possível carregar as fontes de links.");
+      }
+      // se já havia uma busca em andamento, refaz com dados atualizados
+      if (els.q.value.trim()) runSearch(els.q.value);
+    });
+  }
+
+  function updateFooterCount(){
+    els.idxCount.textContent = index.length;
+  }
+
+  /* ---------------- busca ---------------- */
+
+  function highlight(text, terms){
+    if (!terms.length) return escapeHtml(text);
+    var safe = escapeHtml(text);
+    terms.forEach(function(t){
+      if (!t) return;
+      var re = new RegExp("(" + t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "ig");
+      safe = safe.replace(re, "<mark>$1</mark>");
+    });
+    return safe;
+  }
+
+  function runSearch(rawQuery){
+    var q = normalize(rawQuery);
+    els.wrap.classList.add("compact");
+
+    if (!q){
+      els.results.innerHTML = "";
+      els.empty.style.display = "none";
+      setStatus(indexReady ? "" : "carregando índice...");
+      return;
+    }
+
+    if (!indexReady){
+      els.results.innerHTML = "";
+      els.empty.style.display = "block";
+      els.empty.innerHTML = "carregando índice, tente novamente em instantes...";
+      return;
+    }
+
+    var terms = q.split(/\s+/).filter(Boolean);
+    var matches = index.filter(function(it){
+      return terms.every(function(t){ return it._n.indexOf(t) !== -1; });
+    });
+
+    // relevância simples: título começando com o termo > título contém > só descrição/host
+    matches.sort(function(a,b){
+      var an = normalize(a.title), bn = normalize(b.title);
+      var aScore = an.indexOf(q) === 0 ? 2 : (an.indexOf(q) !== -1 ? 1 : 0);
+      var bScore = bn.indexOf(q) === 0 ? 2 : (bn.indexOf(q) !== -1 ? 1 : 0);
+      if (bScore !== aScore) return bScore - aScore;
+      return b.ts - a.ts;
+    });
+
+    renderResults(matches.slice(0, MAX_RESULTS), matches.length, rawQuery.trim().split(/\s+/));
+  }
+
+  function renderResults(list, total, rawTerms){
+    els.empty.style.display = "none";
+
+    if (!list.length){
+      els.results.innerHTML = "";
+      els.empty.style.display = "block";
+      els.empty.innerHTML = 'nenhum resultado para "<b>' + escapeHtml(els.q.value) + '</b>".';
+      setStatus("0 resultados.");
+      return;
+    }
+
+    setStatus(total + (total === 1 ? " resultado encontrado." : " resultados encontrados.") +
+      (total > list.length ? " exibindo os " + list.length + " mais relevantes." : ""));
+
+    els.results.innerHTML = list.map(function(it){
+      return (
+        '<div class="result">' +
+          '<div class="url">' + escapeHtml(it.host) + '</div>' +
+          '<a class="title" href="' + escapeHtml(it.link) + '" target="_blank" rel="noopener noreferrer">' +
+            highlight(it.title, rawTerms) +
+          '</a>' +
+          (it.desc ? '<div class="meta">' + escapeHtml(it.desc) + '</div>' : '') +
+          (it.date ? '<div class="meta">adicionado em ' + fmtDate(it.date) + '</div>' : '') +
+        '</div>'
+      );
+    }).join("");
+  }
+
+  function setStatus(msg){
+    els.status.textContent = msg;
+  }
+
+  /* ---------------- histórico de busca ---------------- */
+
+  function getHistory(){
+    try{ return JSON.parse(localStorage.getItem(HISTORY_KEY)) || []; }
+    catch(e){ return []; }
+  }
+
+  function saveHistory(list){
+    try{ localStorage.setItem(HISTORY_KEY, JSON.stringify(list)); }catch(e){}
+  }
+
+  function addToHistory(term){
+    term = term.trim();
+    if (!term) return;
+    var list = getHistory().filter(function(t){ return normalize(t) !== normalize(term); });
+    list.unshift(term);
+    if (list.length > MAX_HISTORY) list = list.slice(0, MAX_HISTORY);
+    saveHistory(list);
+  }
+
+  function removeFromHistory(term){
+    saveHistory(getHistory().filter(function(t){ return t !== term; }));
+    renderHistory();
+  }
+
+  function renderHistory(filterTerm){
+    var list = getHistory();
+    if (filterTerm){
+      var nf = normalize(filterTerm);
+      list = list.filter(function(t){ return normalize(t).indexOf(nf) !== -1 && normalize(t) !== nf; });
+    }
+    if (!list.length){
+      els.historyBox.classList.remove("show");
+      els.historyList.innerHTML = "";
+      return;
+    }
+    els.historyList.innerHTML = list.map(function(term){
+      return (
+        '<div class="h-item" data-term="' + escapeHtml(term) + '">' +
+          '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>' +
+          '<span>' + escapeHtml(term) + '</span>' +
+          '<span class="rm" data-rm="' + escapeHtml(term) + '" title="remover">×</span>' +
+        '</div>'
+      );
+    }).join("");
+    els.historyBox.classList.add("show");
+  }
+
+  els.historyList.addEventListener("click", function(e){
+    var rm = e.target.getAttribute("data-rm");
+    if (rm !== null){
+      e.stopPropagation();
+      removeFromHistory(rm);
+      return;
+    }
+    var item = e.target.closest(".h-item");
+    if (item){
+      var term = item.getAttribute("data-term");
+      els.q.value = term;
+      els.historyBox.classList.remove("show");
+      doSearch(term);
+    }
+  });
+
+  els.clearHistory.addEventListener("click", function(){
+    saveHistory([]);
+    renderHistory();
+  });
+
+  /* ---------------- busca por voz ---------------- */
+
+  var SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  var recognizer = null;
+  var listening = false;
+
+  if (SpeechRecognition){
+    recognizer = new SpeechRecognition();
+    recognizer.lang = "pt-BR";
+    recognizer.interimResults = false;
+    recognizer.maxAlternatives = 1;
+
+    recognizer.onstart = function(){
+      listening = true;
+      els.micBtn.classList.add("listening");
+      setStatus("ouvindo...");
+    };
+    recognizer.onerror = function(){
+      listening = false;
+      els.micBtn.classList.remove("listening");
+      setStatus("não foi possível reconhecer o áudio.");
+    };
+    recognizer.onend = function(){
+      listening = false;
+      els.micBtn.classList.remove("listening");
+    };
+    recognizer.onresult = function(event){
+      var transcript = event.results[0][0].transcript;
+      els.q.value = transcript;
+      doSearch(transcript);
+    };
+  } else {
+    els.micBtn.style.display = "none";
+  }
+
+  els.micBtn.addEventListener("click", function(){
+    if (!recognizer) return;
+    if (listening){ recognizer.stop(); return; }
+    try{ recognizer.start(); }catch(e){}
+  });
+
+  /* ---------------- eventos gerais ---------------- */
+
+  function doSearch(term){
+    addToHistory(term);
+    runSearch(term);
+    els.historyBox.classList.remove("show");
+  }
+
+  var debounceTimer = null;
+  els.q.addEventListener("input", function(){
+    els.clearBtn.classList.toggle("show", !!els.q.value);
+    if (els.q.value.trim()){
+      renderHistory(els.q.value);
+    } else {
+      renderHistory();
+    }
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(function(){ runSearch(els.q.value); }, 220);
+  });
+
+  els.q.addEventListener("keydown", function(e){
+    if (e.key === "Enter"){
+      e.preventDefault();
+      if (els.q.value.trim()) doSearch(els.q.value);
+    }
+    if (e.key === "Escape"){
+      els.historyBox.classList.remove("show");
+      els.q.blur();
+    }
+  });
+
+  els.q.addEventListener("focus", function(){
+    renderHistory(els.q.value.trim() ? els.q.value : null);
+  });
+
+  document.addEventListener("click", function(e){
+    if (!e.target.closest(".searchbox")) els.historyBox.classList.remove("show");
+  });
+
+  els.searchBtn.addEventListener("click", function(){
+    if (els.q.value.trim()) doSearch(els.q.value);
+  });
+
+  els.clearBtn.addEventListener("click", function(){
+    els.q.value = "";
+    els.clearBtn.classList.remove("show");
+    els.wrap.classList.remove("compact");
+    els.results.innerHTML = "";
+    els.empty.style.display = "none";
+    setStatus("");
+    els.q.focus();
+  });
+
+  /* ---------------- suporte a ?q= (integração com OpenSearch do navegador) ---------------- */
+
+  function initFromUrl(){
+    var params = new URLSearchParams(window.location.search);
+    var q = params.get("q");
+    if (q){
+      els.q.value = q;
+      els.clearBtn.classList.add("show");
+      var tryRun = function(){
+        if (indexReady){ doSearch(q); }
+        else setTimeout(tryRun, 150);
+      };
+      tryRun();
+    }
+  }
+
+  loadIndex();
+  initFromUrl();
+
+})();
+</script>
+</body>
+</html>
