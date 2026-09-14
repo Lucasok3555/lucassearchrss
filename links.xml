@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+    <title>Meu Feed Personalizado</title>
+    <link>https://lucasok3555.github.io/Lucasweb/rss.html</link>
+    <description>Feed gerado através da aplicação web.</description>
+    <language>pt-br</language>
+    <lastBuildDate>Sun, 28 Dec 2025 01:39:15 GMT</lastBuildDate>
+
+    <item>
+        <title>9sites</title>
+        <link>https://www.9sites.net/</link>
+        <pubDate>Sun, 28 Dec 2025 01:25:26 GMT</pubDate>
+        <guid>https://www.9sites.net/</guid>
+    </item>
+    <item>
+        <title>tsection</title>
+        <link>https://www.tsection.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:26:03 GMT</pubDate>
+        <guid>https://www.tsection.com/</guid>
+    </item>
+    <item>
+        <title>abc-directory</title>
+        <link>https://www.abc-directory.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:26:29 GMT</pubDate>
+        <guid>https://www.abc-directory.com/</guid>
+    </item>
+    <item>
+        <title>somuch</title>
+        <link>https://www.somuch.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:26:47 GMT</pubDate>
+        <guid>https://www.somuch.com/</guid>
+    </item>
+    <item>
+        <title>prolinkdirectory</title>
+        <link>https://www.prolinkdirectory.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:27:15 GMT</pubDate>
+        <guid>https://www.prolinkdirectory.com/</guid>
+    </item>
+    <item>
+        <title>cipinet</title>
+        <link>https://www.cipinet.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:27:37 GMT</pubDate>
+        <guid>https://www.cipinet.com/</guid>
+    </item>
+    <item>
+        <title>highrankdirectory</title>
+        <link>https://www.highrankdirectory.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:27:54 GMT</pubDate>
+        <guid>https://www.highrankdirectory.com/</guid>
+    </item>
+    <item>
+        <title>sonicrun</title>
+        <link>https://www.sonicrun.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:28:13 GMT</pubDate>
+        <guid>https://www.sonicrun.com/</guid>
+    </item>
+    <item>
+        <title>247webdirectory</title>
+        <link>https://www.247webdirectory.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:28:30 GMT</pubDate>
+        <guid>https://www.247webdirectory.com/</guid>
+    </item>
+    <item>
+        <title>gainweb</title>
+        <link>https://gainweb.org/</link>
+        <pubDate>Sun, 28 Dec 2025 01:28:52 GMT</pubDate>
+        <guid>https://gainweb.org/</guid>
+    </item>
+    <item>
+        <title>directory-free</title>
+        <link>https://www.directory-free.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:29:11 GMT</pubDate>
+        <guid>https://www.directory-free.com/</guid>
+    </item>
+    <item>
+        <title>txtlinks</title>
+        <link>https://www.txtlinks.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:29:34 GMT</pubDate>
+        <guid>https://www.txtlinks.com/</guid>
+    </item>
+    <item>
+        <title>dizila</title>
+        <link>https://www.dizila.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:29:52 GMT</pubDate>
+        <guid>https://www.dizila.com/</guid>
+    </item>
+    <item>
+        <title>worldweb-directory</title>
+        <link>https://www.worldweb-directory.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:30:11 GMT</pubDate>
+        <guid>https://www.worldweb-directory.com/</guid>
+    </item>
+    <item>
+        <title>onemilliondirectory</title>
+        <link>https://www.onemilliondirectory.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:30:31 GMT</pubDate>
+        <guid>https://www.onemilliondirectory.com/</guid>
+    </item>
+    <item>
+        <title>digabusiness</title>
+        <link>https://www.digabusiness.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:30:48 GMT</pubDate>
+        <guid>https://www.digabusiness.com/</guid>
+    </item>
+    <item>
+        <title>jayde</title>
+        <link>https://www.jayde.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:31:06 GMT</pubDate>
+        <guid>https://www.jayde.com/</guid>
+    </item>
+    <item>
+        <title>businessseek</title>
+        <link>https://www.businessseek.biz/</link>
+        <pubDate>Sun, 28 Dec 2025 01:33:19 GMT</pubDate>
+        <guid>https://www.businessseek.biz/</guid>
+    </item>
+    <item>
+        <title>usalistingdirectory</title>
+        <link>https://www.usalistingdirectory.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:33:36 GMT</pubDate>
+        <guid>https://www.usalistingdirectory.com/</guid>
+    </item>
+    <item>
+        <title>info-listings</title>
+        <link>https://info-listings.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:33:52 GMT</pubDate>
+        <guid>https://info-listings.com/</guid>
+    </item>
+    <item>
+        <title>usawebsitesdirectory</title>
+        <link>https://www.usawebsitesdirectory.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:34:08 GMT</pubDate>
+        <guid>https://www.usawebsitesdirectory.com/</guid>
+    </item>
+    <item>
+        <title>allbusinessdirectory</title>
+        <link>https://www.allbusinessdirectory.biz/</link>
+        <pubDate>Sun, 28 Dec 2025 01:34:26 GMT</pubDate>
+        <guid>https://www.allbusinessdirectory.biz/</guid>
+    </item>
+    <item>
+        <title>alabamaindex</title>
+        <link>https://www.alabamaindex.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:34:43 GMT</pubDate>
+        <guid>https://www.alabamaindex.com/</guid>
+    </item>
+    <item>
+        <title>allstatesusadirectory</title>
+        <link>https://www.allstatesusadirectory.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:35:01 GMT</pubDate>
+        <guid>https://www.allstatesusadirectory.com/</guid>
+    </item>
+    <item>
+        <title>ukinternetdirectory</title>
+        <link>https://www.ukinternetdirectory.net/</link>
+        <pubDate>Sun, 28 Dec 2025 01:36:33 GMT</pubDate>
+        <guid>https://www.ukinternetdirectory.net/</guid>
+    </item>
+    <item>
+        <title>britainbusinessdirectory</title>
+        <link>https://www.britainbusinessdirectory.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:37:03 GMT</pubDate>
+        <guid>https://www.britainbusinessdirectory.com/</guid>
+    </item>
+    <item>
+        <title>the-web-directory</title>
+        <link>https://www.the-web-directory.co.uk/</link>
+        <pubDate>Sun, 28 Dec 2025 01:37:20 GMT</pubDate>
+        <guid>https://www.the-web-directory.co.uk/</guid>
+    </item>
+    <item>
+        <title>skoobe</title>
+        <link>https://www.skoobe.biz/</link>
+        <pubDate>Sun, 28 Dec 2025 01:38:32 GMT</pubDate>
+        <guid>https://www.skoobe.biz/</guid>
+    </item>
+    <item>
+        <title>australiawebdirectory</title>
+        <link>https://www.australiawebdirectory.net/</link>
+        <pubDate>Sun, 28 Dec 2025 01:38:49 GMT</pubDate>
+        <guid>https://www.australiawebdirectory.net/</guid>
+    </item>
+    <item>
+        <title>submit</title>
+        <link>https://www.submit.biz/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>https://www.submit.biz/</guid>
+    </item>
+	    <item>
+        <title>firebase</title>
+        <link>https://firebase.google.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>Discover Firebase, Google's mobile and web app development platform that helps developers build apps and games that users will love.</guid>
+    </item>
+	    <item>
+        <title>mongodb</title>
+        <link>https://www.mongodb.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>MongoDB Atlas integrates operational and vector databases in a single, unified platform. Use vector representations of your data to perform semantic search</guid>
+    </item>
+	    </item>
+	    <item>
+        <title>PostgreSQL</title>
+        <link>https://www.postgresql.org/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>PostgreSQL is a powerful, open source object-relational database system with over 35 years of active development that has earned it a strong reputation for</guid>
+    </item>
+	    </item>
+	    <item>
+        <title>Yandex</title>
+        <link>https://yandex.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>Yandex finds anything: webpages, images, music, good. Solve any problem — from everyday to a scientific one. Search by text, voice or image.</guid>
+    </item>
+	    </item>
+	    <item>
+        <title>discord</title>
+        <link>https://discord.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>Discord is great for playing games and chilling with friends, or even building a worldwide community. Customize your own space to talk, play, and hang out.</guid>
+    </item>
+	    </item>
+	    <item>
+        <title>brave</title>
+        <link>https://brave.com/pt-br/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>Brave é um dos navegadores mais seguros do mercado atualmente. Navegue com privacidade. Bloqueia o armazenamento de dados de terceiros. Ele protege contra</guid>
+    </item>
+	    </item>
+	    <item>
+        <title>cnbc</title>
+        <link>https://www.cnbc.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>CNBC is the world leader in business news and real-time financial market coverage. Find fast, actionable information.</guid>
+     </item>
+	    </item>
+	    <item>
+        <title>yahoo</title>
+        <link>https://br.yahoo.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>Notícias, e-mail e busca são apenas o começo. Descubra mais todos os dias.</guid>
+    </item>
+	    </item>
+	    <item>
+        <title>cnnbrasil</title>
+        <link>https://www.cnnbrasil.com.br/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>Pense bem, pense CNN - Notícias ao vivo, fatos da política nacional e internacional no maior canal de notícias do mundo</guid>
+    </item>
+	    </item>
+	    <item>
+        <title>ahrefs</title>
+        <link>https://ahrefs.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>Skip the digging. Just ask. Ask Ahrefs is Ahrefs’ built-in AI assistant. It analyzes your data, runs API queries, and navigates the</guid>
+    </item>
+	    </item>
+	    <item>
+        <title>ollama</title>
+        <link>https://ollama.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>Ollama is the easiest way to automate your work using open models, while keeping your data safe.</guid>
+    </item>
+	    </item>
+	    <item>
+        <title>roblox</title>
+        <link>https://www.roblox.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>Roblox is the ultimate virtual universe that lets you create, share experiences with friends, and be anything you can imagine. Join millions of people and</guid>
+    </item>
+	    </item>
+	    <item>
+        <title>i2pd</title>
+        <link>https://i2pd.website/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>i2pd (I2P Daemon) is a full-featured C++ implementation of I2P client I2P (Invisible Internet Protocol) is a universal anonymous</guid>
+    </item>
+	    </item>
+	    <item>
+        <title>tailscale</title>
+        <link>https://tailscale.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>Tailscale is a registered trademark of Tailscale Inc. | WireGuard is a registered trademark of Jason</guid>
+    </item>
+	    </item>
+	    <item>
+        <title>docker</title>
+        <link>https://www.docker.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>Docker is a platform designed to help developers build, share, and run container applications. We handle the tedious setup</guid>
+    </item>
+	    </item>
+	    <item>
+        <title>xbox</title>
+        <link>https://www.xbox.com/?msockid=3cf9b4422e576bf020d1a3882fcb6a3e</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>Play with XBOX on PC, console, & more. Explore Game Pass. Discover thousands of games. Shop controllers, handhelds, & consoles</guid>
+    </item>
+	    </item>
+	    <item>
+        <title>x</title>
+        <link>https://x.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>From breaking news and entertainment to sports and politics, get the full story with all the live commentary.</guid>
+    </item>
+	    </item>
+	    <item>
+        <title>zoom</title>
+        <link>https://zoom.us/signin</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>Sign in to your Zoom account to join a meeting, update your profile, change your settings, and more!</guid>
+    </item>
+	    </item>
+	    <item>
+        <title>nostr</title>
+        <link>https://nostr.org/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>Nostr is a decentralized and cryptographic network that lets you control your own data and interact with people from across the</guid>
+    </item>
+	    </item>
+	    <item>
+        <title>kick</title>
+        <link>https://kick.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>Kick is a streaming platform that makes it easy for you to find and watch your favorite content.</guid>
+    </item>
+	    </item>
+	    <item>
+        <title>linux</title>
+        <link>https://www.linux.org/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>Find links to popular Linux distributions and download pages on Linux.org Forums. Explore different Linux options</guid>
+    </item>
+	    </item>
+	    <item>
+        <title>apple</title>
+        <link>https://www.apple.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>Discover the innovative world of Apple and shop everything iPhone, iPad, Apple Watch, Mac, and Apple TV, plus explore accessories</guid>
+    </item>
+	    </item>
+	    <item>
+        <title>meshchatx</title>
+        <link>https://meshchatx.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>MeshChatX client for messaging, calls, and NomadNet over Reticulum. No central servers.</guid>
+    </item>
+	    </item>
+	    <item>
+        <title>quora</title>
+        <link>https://www.quora.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>Quora is a place to gain and share knowledge. It's a platform to ask questions and connect with people who contribute unique</guid>
+    </item>
+	    </item>
+	    <item>
+        <title>obs</title>
+        <link>https://obsproject.com/download</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>You can install OBS Studio from Flathub here. If your distro is not already set up to install Flatpaks, you can follow the instructions here.</guid>
+    </item>
+	    </item>
+	    <item>
+        <title>amazon</title>
+        <link>https://www.amazon.com.br/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>Encontre o que precisa na Amazon. Ofertas em Livros, Kindle, Echo com Alexa, Fire TV, Eletrônicos, Bebidas, Casa, Beleza e mais</guid>
+    </item>
+	    </item>
+	    <item>
+        <title>tiktok</title>
+        <link>https://www.tiktok.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>TikTok - trends start here. On a device or on the web, viewers can watch and discover millions of personalized short videos</guid>
+    </item>
+	    </item>
+	    <item>
+        <title>notion</title>
+        <link>https://www.notion.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>Automate weekly reporting → Create your own developer tools → Trusted by teams that ship. Using the most AI-native tools like</guid>
+    </item>
+	    </item>
+	    <item>
+        <title>wikipedia</title>
+        <link>https://www.wikipedia.org/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation</guid>
+    </item>
+	    </item>
+	    <item>
+        <title>wikihow</title>
+        <link>https://www.wikihow.com/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>About wikiHow Log in / Sign up Terms of Use WikiHow Easily learn how to do anything Search Today you can learn</guid>
+</channel>
+</rss>
