@@ -360,14 +360,12 @@
         <link>https://www.wikipedia.org/</link>
         <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
         <guid>://www.wikipedia.org</guid>
-	</item>
     </item>
-	    </item>
-	    <item>
+	   <item>
         <title>wikihow</title>
         <link>https://www.wikihow.com/</link>
         <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
-        <guid>About wikiHow Log in / Sign up Terms of Use WikiHow Easily learn how to do anything Search Today you can learn</guid>
-	</item>
+        <guid>https://www.wikihow.com/</guid>
+	   </item>
 </channel>
 </rss>
