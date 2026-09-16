@@ -373,12 +373,11 @@
         <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
         <guid>://www.wikipedia.org</guid>
     </item>
-	   <item>
         <title>mojeek</title>
-        <link>https://www.mojeek.com/</link>
+        <link>https://www.mojeek.com</link>
         <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
-        <guid>https://www.mojeek.com/</guid>
-	   </item>
+        <guid>https://www.mojeek.com</guid>
+    </item>
 	   <item>
         <title>startpage</title>
         <link>https://www.startpage.com/</link>
