@@ -427,5 +427,11 @@
         <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
         <guid>https://search.brave.com/</guid>
 	   </item>
+	   <item>
+        <title>Reticulum Go</title>
+        <link>https://reticulum-go.quad4.io/</link>
+        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <guid>https://reticulum-go.quad4.io/</guid>
+	   </item>
 </channel>
 </rss>
