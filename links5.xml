@@ -332,7 +332,19 @@
         <guid>https://pt.aliexpress.com/</guid>
     </item>
     <item>
-        <title>Didscord</title>
+        <title>IPFS</title>
+        <link>https://ipfs.tech/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://ipfs.tech/</guid>
+    </item>
+    <item>
+        <title>reddit</title>
+        <link>https://www.reddit.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.reddit.com/</guid>
+    </item>
+    <item>
+        <title>Discord</title>
         <link>https://discord.com/</link>
         <pubDate>Mon, 29 Dec 2025 16:31:56 GMT</pubDate>
         <guid>https://discord.com/</guid>
