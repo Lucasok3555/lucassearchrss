@@ -344,6 +344,12 @@
         <guid>https://www.reddit.com/</guid>
     </item>
     <item>
+        <title>hacker News</title>
+        <link>https://news.ycombinator.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://news.ycombinator.com/</guid>
+    </item>
+    <item>
         <title>Discord</title>
         <link>https://discord.com/</link>
         <pubDate>Mon, 29 Dec 2025 16:31:56 GMT</pubDate>
