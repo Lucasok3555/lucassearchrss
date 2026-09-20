@@ -272,12 +272,6 @@
         <guid>https://tailscale.com/</guid>
     </item>
 	   <item>
-        <title>docker</title>
-        <link>https://www.docker.com/</link>
-        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
-        <guid>https://www.docker.com/</guid>
-    </item>
-	   <item>
         <title>xbox</title>
         <link>https://www.xbox.com/</link>
         <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
@@ -420,6 +414,12 @@
         <link>https://www.bittorrent.com/</link>
         <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
         <guid>https://www.bittorrent.com/</guid>
+    </item>
+    <item>
+        <title>utorrent</title>
+        <link>https://www.utorrent.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.utorrent.com/</guid>
     </item>
 	   <item>
         <title>naver search</title>
