@@ -44,6 +44,12 @@
         <guid>https://www.meta.com/br/</guid>
     </item>
     <item>
+        <title>yahoo finance</title>
+        <link>https://wikipedia.org/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://finance.yahoo.com//</guid>
+    </item>
+    <item>
         <title>Wikipedia</title>
         <link>https://wikipedia.org/</link>
         <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
@@ -222,6 +228,12 @@
         <link>https://www.claro.com.br/</link>
         <pubDate>Mon, 29 Dec 2025 16:29:21 GMT</pubDate>
         <guid>https://www.claro.com.br/</guid>
+    </item>
+    <item>
+        <title>iO</title>
+        <link>https://www.io.com.br/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.io.com.br/</guid>
     </item>
     <item>
         <title>Nio</title>
