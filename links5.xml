@@ -242,6 +242,18 @@
         <guid>https://br.pinterest.com/</guid>
     </item>
     <item>
+        <title>Github</title>
+        <link>https://github.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://github.com/</guid>
+    </item>
+    <item>
+        <title>gitlab</title>
+        <link>https://gitlab.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://gitlab.com/</guid>
+    </item>
+    <item>
         <title>Instagram</title>
         <link>https://www.instagram.com/</link>
         <pubDate>Mon, 29 Dec 2025 16:26:07 GMT</pubDate>
