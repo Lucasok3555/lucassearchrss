@@ -161,7 +161,103 @@
         <title>Google IA Studio</title>
         <link>https://aistudio.google.com/</link>
         <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
-        <guid>https://pt.wikipedia.org/</guid>
+        <guid>https://aistudio.google.com/</guid>
+    </item>
+    <item>
+        <title>Opera</title>
+        <link>https://www.opera.com/pt-br</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.opera.com/pt-br</guid>
+    </item>
+    <item>
+        <title>Microsoft</title>
+        <link>https://microsoft.com</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://microsoft.com</guid>
+    </item>
+    <item>
+        <title>Apps Microsoft</title>
+        <link>https://apps.microsoft.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://apps.microsoft.com/</guid>
+    </item>
+    <item>
+        <title>Mediawiki</title>
+        <link>https://www.mediawiki.org/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.mediawiki.org/</guid>
+    </item>
+    <item>
+        <title>Wiki js</title>
+        <link>https://js.wiki/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://js.wiki/</guid>
+    </item>
+    <item>
+        <title>Wiki GG</title>
+        <link>https://www.wiki.gg/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.wiki.gg/</guid>
+    </item>
+    <item>
+        <title>Yandex Cloud</title>
+        <link>https://yandex.cloud/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://yandex.cloud/</guid>
+    </item>
+    <item>
+        <title>Huggingface</title>
+        <link>https://huggingface.co/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://huggingface.co/</guid>
+    </item>
+    <item>
+        <title>Techtudo</title>
+        <link>https://www.techtudo.com.br/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.techtudo.com.br/</guid>
+    </item>
+    <item>
+        <title>Baidu</title>
+        <link>https://www.baidu.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.baidu.com/</guid>
+    </item>
+    <item>
+        <title>bilibili</title>
+        <link>https://www.bilibili.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.bilibili.com/</guid>
+    </item>
+    <item>
+        <title>bilibili TV</title>
+        <link>https://www.bilibili.tv/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.bilibili.tv/</guid>
+    </item>
+    <item>
+        <title>Ecosia</title>
+        <link>https://www.ecosia.org/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.ecosia.org/</guid>
+    </item>
+    <item>
+        <title>Docs searxng</title>
+        <link>https://docs.searxng.org/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://docs.searxng.org/</guid>
+    </item>
+    <item>
+        <title>searxng</title>
+        <link>https://searxng.org/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://searxng.org/</guid>
+    </item>
+    <item>
+        <title>Swisscows</title>
+        <link>https://swisscows.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://swisscows.com/</guid>
     </item>
     <item>
         <title>Apple Apps</title>
@@ -386,10 +482,34 @@
         <guid>https://www.reddit.com/</guid>
     </item>
     <item>
+        <title>lemmy</title>
+        <link>https://join-lemmy.org/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://join-lemmy.org/</guid>
+    </item>
+    <item>
+        <title>Quora</title>
+        <link>https://www.quora.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.quora.com/</guid>
+    </item>
+    <item>
+        <title>Matrix</title>
+        <link>https://matrix.org/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://matrix.org/</guid>
+    </item>
+    <item>
         <title>hacker News</title>
         <link>https://news.ycombinator.com/</link>
         <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
         <guid>https://news.ycombinator.com/</guid>
+    </item>
+    <item>
+        <title>bbc</title>
+        <link>https://www.bbc.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.bbc.com/</guid>
     </item>
     <item>
         <title>Discord</title>
