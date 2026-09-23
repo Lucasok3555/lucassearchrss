@@ -152,8 +152,56 @@
         <guid>https://www.whonix.org/</guid>
     </item>
     <item>
+        <title>videolan</title>
+        <link>https://www.videolan.org/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.videolan.org/</guid>
+    </item>
+    <item>
+        <title>python</title>
+        <link>https://www.python.org/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.python.org/</guid>
+    </item>
+    <item>
+        <title>pypi|pip|python</title>
+        <link>https://pypi.org/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://pypi.org/</guid>
+    </item>
+    <item>
+        <title>libreoffice</title>
+        <link>https://www.libreoffice.org/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.libreoffice.org/</guid>
+    </item>
+    <item>
+        <title>Onlyoffice</title>
+        <link>https://www.onlyoffice.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.onlyoffice.com/</guid>
+    </item>
+    <item>
+        <title>Java</title>
+        <link>https://www.java.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.java.com/</guid>
+    </item>
+    <item>
+        <title>Notepad</title>
+        <link>https://notepad-plus-plus.org/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://notepad-plus-plus.org/</guid>
+    </item>
+    <item>
+        <title>Go</title>
+        <link>https://go.dev/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://go.dev/</guid>
+    </item>
+    <item>
         <title>fortnite</title>
-        <link>https://www.fortnite.com/</link>
+        <link>https://www.Fortnite.com/</link>
         <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
         <guid>https://www.fortnite.com/?lang=pt-BR</guid>
     </item>
