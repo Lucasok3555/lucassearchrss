@@ -176,10 +176,34 @@
         <guid>https://microsoft.com</guid>
     </item>
     <item>
+        <title>Microsoft login</title>
+        <link>https://login.microsoft.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://microsoft.com</guid>
+    </item>
+    <item>
+        <title>Outlook Microsoft</title>
+        <link>https://outlook.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://outlook.com/</guid>
+    </item>
+    <item>
         <title>Apps Microsoft</title>
         <link>https://apps.microsoft.com/</link>
         <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
         <guid>https://apps.microsoft.com/</guid>
+    </item>
+    <item>
+        <title>Microsoft Msn</title>
+        <link>https://www.msn.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.msn.com/</guid>
+    </item>
+    <item>
+        <title>Microsoft Teams</title>
+        <link>https://teams.live.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://teams.live.com/</guid>
     </item>
     <item>
         <title>Mediawiki</title>
@@ -348,12 +372,6 @@
         <link>https://github.com/</link>
         <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
         <guid>https://github.com/</guid>
-    </item>
-    <item>
-        <title>gitlab</title>
-        <link>https://gitlab.com/</link>
-        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
-        <guid>https://gitlab.com/</guid>
     </item>
     <item>
         <title>Instagram</title>
@@ -540,6 +558,24 @@
         <link>https://br.yahoo.com/</link>
         <pubDate>Mon, 29 Dec 2025 16:34:28 GMT</pubDate>
         <guid>https://br.yahoo.com/</guid>
+    </item>
+    <item>
+        <title>Yahoo Finance</title>
+        <link>https://finance.yahoo.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:34:28 GMT</pubDate>
+        <guid>https://finance.yahoo.com/</guid>
+    </item>
+    <item>
+        <title>Yahoo login</title>
+        <link>https://login.yahoo.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:34:28 GMT</pubDate>
+        <guid>https://login.yahoo.com/</guid>
+    </item>
+    <item>
+        <title>Yahoo Mail</title>
+        <link>https://mail.yahoo.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:34:28 GMT</pubDate>
+        <guid>https://mail.yahoo.com/</guid>
     </item>
     <item>
         <title>Olx</title>
