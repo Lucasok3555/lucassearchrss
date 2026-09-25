@@ -56,6 +56,198 @@
         <guid>https://mail.google.com/</guid>
     </item>
     <item>
+        <title>Google One</title>
+        <link>https://one.google.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://one.google.com/</guid>
+    </item>
+    <item>
+        <title>Chrome developer</title>
+        <link>https://developer.chrome.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://developer.chrome.com/</guid>
+    </item>
+    <item>
+        <title>Nvidia</title>
+        <link>https://www.nvidia.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.nvidia.com/</guid>
+    </item>
+    <item>
+        <title>Tecnoblog</title>
+        <link>https://tecnoblog.net/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://tecnoblog.net/</guid>
+    </item>
+    <item>
+        <title>Meta IA</title>
+        <link>https://www.meta.ai/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.meta.ai/</guid>
+    </item>
+    <item>
+        <title>slack</title>
+        <link>https://slack.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://slack.com/</guid>
+    </item>
+    <item>
+        <title>Cloudflare</title>
+        <link>https://www.cloudflare.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.cloudflare.com/</guid>
+    </item>
+    <item>
+        <title>ibm</title>
+        <link>https://www.ibm.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.ibm.com/</guid>
+    </item>
+    <item>
+        <title>Wix</title>
+        <link>https://pt.wix.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://pt.wix.com/</guid>
+    </item>
+    <item>
+        <title>Mongodb</title>
+        <link>https://www.mongodb.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.mongodb.com/</guid>
+    </item>
+    <item>
+        <title>Europarl Europa</title>
+        <link>https://www.europarl.europa.eu/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.europarl.europa.eu/</guid>
+    </item>
+    <item>
+        <title>Europa</title>
+        <link>https://european-union.europa.eu/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://european-union.europa.eu/</guid>
+    </item>
+    <item>
+        <title>olhardigital</title>
+        <link>https://olhardigital.com.br/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://olhardigital.com.br/</guid>
+    </item>
+    <item>
+        <title>Teletime</title>
+        <link>https://teletime.com.br/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://teletime.com.br/</guid>
+    </item>
+    <item>
+        <title>Avast</title>
+        <link>https://www.avast.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.avast.com/</guid>
+    </item>
+    <item>
+        <title>oracle</title>
+        <link>https://www.oracle.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.oracle.com/</guid>
+    </item>
+    <item>
+        <title>Techtudo</title>
+        <link>https://www.techtudo.com.br/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.techtudo.com.br/</guid>
+    </item>
+    <item>
+        <title>infomoney</title>
+        <link>https://www.infomoney.com.br/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.infomoney.com.br/</guid>
+    </item>
+    <item>
+        <title>Redhat</title>
+        <link>https://www.redhat.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.redhat.com/</guid>
+    </item>
+    <item>
+        <title>Wikimedia</title>
+        <link>https://www.wikimedia.org/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.wikimedia.org/</guid>
+    </item>
+    <item>
+        <title>Booking</title>
+        <link>https://www.booking.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.booking.com/</guid>
+    </item>
+    <item>
+        <title>Minecraft Wiki</title>
+        <link>https://pt.minecraft.wiki/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://pt.minecraft.wiki/</guid>
+    </item>
+    <item>
+        <title>olx</title>
+        <link>https://www.olx.com.br/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.olx.com.br/</guid>
+    </item>
+    <item>
+        <title>Wikibooks</title>
+        <link>https://en.wikibooks.org/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://en.wikibooks.org/</guid>
+    </item>
+    <item>
+        <title>Kiwix</title>
+        <link>https://kiwix.org/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://kiwix.org/</guid>
+    </item>
+    <item>
+        <title>luanti|Mintest</title>
+        <link>https://www.luanti.org/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.luanti.org/</guid>
+    </item>
+    <item>
+        <title>Tudocelular</title>
+        <link>https://www.tudocelular.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.tudocelular.com/</guid>
+    </item>	
+    <item>
+        <title>Teletime</title>
+        <link>https://teletime.com.br/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://teletime.com.br/</guid>
+    </item>	
+    <item>
+        <title>Minhaconexao</title>
+        <link>https://www.minhaconexao.com.br/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.minhaconexao.com.br/</guid>
+    </item>
+    <item>
+        <title>Canaltech</title>
+        <link>https://canaltech.com.br/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://canaltech.com.br/</guid>
+    </item>
+    <item>
+        <title>huawei</title>
+        <link>https://www.huawei.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.huawei.com/</guid>
+    </item>
+    <item>
+        <title>infomoney</title>
+        <link>https://www.infomoney.com.br/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.infomoney.com.br/</guid>
+    </item>
+    <item>
         <title>Web Whatsapp</title>
         <link>https://web.whatsapp.com/</link>
         <pubDate>Mon, 29 Dec 2025 16:10:08 GMT</pubDate>
@@ -379,17 +571,17 @@
         <pubDate>Mon, 29 Dec 2025 16:19:51 GMT</pubDate>
         <guid>https://x.com/</guid>
     </item>
-	   <item>
+    <item>
         <title>Twitter</title>
         <link>https://twitter.com/</link>
-        <pubDate>Sun, 28 Dec 2025 01:39:10 GMT</pubDate>
+        <pubDate>Mon, 29 Dec 2025 16:19:51 GMT</pubDate>
         <guid>https://twitter.com/</guid>
-	   </item>
-	   <item>
-        <title>mi</title>
-        <link>https://www.mi.com/br/</link>
-        <pubDate>Mon, 29 Dec 2025 16:20:56 GMT</pubDate>
-        <guid>https://www.mi.com/br/</guid>
+    </item>
+    <item>
+        <title>MI</title>
+        <link>https://www.mi.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:19:51 GMT</pubDate>
+        <guid>https://www.mi.com/</guid>
     </item>
     <item>
         <title>Xbox</title>
@@ -480,6 +672,12 @@
         <link>https://www.oi.com.br/</link>
         <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
         <guid>https://www.io.com.br/</guid>
+    </item>
+    <item>
+        <title>Brisanet</title>
+        <link>https://www.brisanet.com.br/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.brisanet.com.br/</guid>
     </item>
     <item>
         <title>Nio</title>
@@ -576,6 +774,12 @@
         <link>https://www.bbc.com/</link>
         <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
         <guid>https://www.bbc.com/</guid>
+    </item>
+    <item>
+        <title>EV|Fundação Bradesco</title>
+        <link>https://www.ev.org.br/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://www.ev.org.br/</guid>
     </item>
     <item>
         <title>Discord</title>
