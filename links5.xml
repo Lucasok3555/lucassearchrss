@@ -770,6 +770,18 @@
         <guid>https://ipfs.tech/</guid>
     </item>
     <item>
+        <title>joinMastodon</title>
+        <link>https://joinmastodon.org/pt-BR/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://joinmastodon.org/pt-BR/</guid>
+    </item>
+    <item>
+        <title>Mastodon</title>
+        <link>https://mastodon.social/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://mastodon.social/</guid>
+    </item>    
+    <item>
         <title>hyphanet</title>
         <link>https://www.hyphanet.org/</link>
         <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
