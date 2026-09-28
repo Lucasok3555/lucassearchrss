@@ -14,6 +14,12 @@
         <guid>https://google.com/</guid>
     </item>
     <item>
+        <title>Google News</title>
+        <link>https://news.google.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:09:30 GMT</pubDate>
+        <guid>https://news.google.com/</guid>
+    </item>
+    <item>
         <title>Google play</title>
         <link>https://play.google.com/</link>
         <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
@@ -66,6 +72,12 @@
         <link>https://developer.chrome.com/</link>
         <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
         <guid>https://developer.chrome.com/</guid>
+    </item>
+    <item>
+        <title>Chrome</title>
+        <link>https://chrome.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://chrome.com/</guid>
     </item>
     <item>
         <title>Nvidia</title>
@@ -432,6 +444,24 @@
         <link>https://outlook.com/</link>
         <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
         <guid>https://outlook.com/</guid>
+    </item>
+    <item>
+        <title>Nostr</title>
+        <link>https://nostr.org/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://nostr.org/</guid>
+    </item>
+    <item>
+        <title>NostrApps</title>
+        <link>https://nostrapps.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://nostrapps.com/</guid>
+    </item>
+    <item>
+        <title>Nostr  Social</title>
+        <link>https://nostr.com/</link>
+        <pubDate>Mon, 29 Dec 2025 16:12:34 GMT</pubDate>
+        <guid>https://nostr.com/</guid>
     </item>
     <item>
         <title>Apps Microsoft</title>
